@@ -1,0 +1,10 @@
+{
+  "default_model": "llama2",
+  "api_base_url": "http://localhost:11434",
+  "temperature": 0.4,
+  "top_p": 0.9,
+  "max_tokens": 800,
+  "streaming": true,
+  "log_file": "ollama.log",
+  "note": "This config is used by internal scripts or FastAPI clients to reference default settings."
+}
